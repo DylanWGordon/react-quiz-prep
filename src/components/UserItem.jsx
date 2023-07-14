@@ -6,7 +6,7 @@ const UserItem = ({ user }) => {
     }
     return <div className="container" id={user.id} onClick={handleClick}>
         <h1>{user.name}</h1>
-        <p>{user.username}</p>
+        <p>{user.email}</p>
     </div>
 }
 
